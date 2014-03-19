@@ -1,0 +1,16 @@
+from os.path import abspath, dirname, join, normpath
+
+DEBUG = True
+
+ALLOWED_HOSTS = ['*']
+TIME_ZONE = "Europe/Amsterdam"
+
+SECRET_KEY = "94931a05-d3ef-4070-9f19-563a452ec655691ba122-e2ec-49f1-a92f-d5eb46c7c04d9871f0de-b4b9-4962-9568-db7ba3f67d6f"
+NEVERCACHE_KEY = "3183f61a-70a1-4514-a785-9cefee5c20fc71663ad5-d86c-4f1f-ba85-6c1a17751842f497e40c-f155-4292-916d-93a90248e900"
+
+DATABASES = {
+    "default": {
+		"ENGINE": "django.db.backends.sqlite3",
+		"NAME": "default.db"
+    }
+}
